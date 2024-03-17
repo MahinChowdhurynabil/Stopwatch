@@ -1,6 +1,6 @@
-let ms = 00;
-let s = 00;
-let m = 00;
+let ms = 0;
+let s = 0;
+let m = 0;
 let count;
 let start = document.querySelector(".start");
 let end = document.querySelector(".stop");
@@ -23,11 +23,11 @@ start.addEventListener("click", function () {
     ms++;
 
     if (ms == 100) {
-      ms = 00;
+      ms = 0;
       s++;
     }
     if (s == 60) {
-      s = 00;
+      s = 0;
       m++;
     }
   }
